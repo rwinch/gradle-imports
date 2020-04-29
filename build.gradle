@@ -2,4 +2,4 @@ plugins {
 	id "org.gretty" version "3.0.2"
 }
 
-import org.akhikhl.gretty.AppBeforeIntegrationTestTask
+apply from: "gretty.gradle"
